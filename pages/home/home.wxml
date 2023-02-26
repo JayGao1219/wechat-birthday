@@ -1,3 +1,6 @@
-<view class="title">您的功德：{{value}}</view>
+<view>
+  <view class="title">您的功德：{{value}}</view>
 <view id="{{id}}">功德+1</view>
 <image  src="../../images/muyu.jpg" bindtap="click" class="image {{classStyle}}"></image>
+
+</view>

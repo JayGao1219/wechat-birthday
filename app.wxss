@@ -1,0 +1,35 @@
+/* pages/muyu/index.wxss */
+page{
+  background: black;
+}
+.animal{
+  transform:scale(1.05);
+}
+.image{
+  width:304rpx;
+  height:221rpx ;
+  margin-left: 223rpx;
+  margin-top: 20rpx;
+}
+#font{
+  color:white;
+  height: 200px;
+  animation: mymove 1s;
+  position:absolute;
+  opacity:0;
+  margin-left: 250rpx;
+}
+#default{
+  color:white;
+  height: 200px;
+  position:absolute;
+  opacity:0;
+  margin-left: 250rpx;
+}
+@keyframes mymove {
+  from {top:100px;opacity:100;}
+  to {top:50px;opacity:0;}
+}
+.title{
+  margin-left: 250rpx;color:white; margin-top: 250rpx;
+}
