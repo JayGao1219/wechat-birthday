@@ -1,6 +1,6 @@
 /* pages/muyu/index.wxss */
 page{
-  background: black;
+  background: rgb(255, 255, 255);
 }
 .animal{
   transform:scale(1.05);
@@ -12,7 +12,7 @@ page{
   margin-top: 20rpx;
 }
 #font{
-  color:white;
+  color:rgb(170, 64, 64);
   height: 200px;
   animation: mymove 1s;
   position:absolute;
@@ -20,7 +20,7 @@ page{
   margin-left: 250rpx;
 }
 #default{
-  color:white;
+  color:rgb(12, 12, 12);
   height: 200px;
   position:absolute;
   opacity:0;
@@ -31,5 +31,5 @@ page{
   to {top:50px;opacity:0;}
 }
 .title{
-  margin-left: 250rpx;color:white; margin-top: 250rpx;
+  margin-left: 250rpx;color:black; margin-top: 250rpx;
 }

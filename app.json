@@ -1,5 +1,23 @@
 {
   "pages": [
-    "pages/home/home"
-  ]
+    "pages/home/home",
+    "pages/game/game"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#13b2ae",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath":"images/home_todo.png",
+      "selectedIconPath":"images/home_select.png"
+    }, {
+      "pagePath": "pages/game/game",
+      "text": "小游戏",
+      "iconPath": "images/game_todo.png",
+      "selectedIconPath": "images/game_select.png"
+    }]
+  }
 }
