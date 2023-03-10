@@ -1,2 +1,19 @@
 <view>
+  <swiper
+    indicator-dots="{{true}}"  
+    autoplay="{{true}}"
+    style="height: 500rpx;">
+    <swiper-item>
+      <image src="../../images/p1.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/p2.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/p3.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/4.png"></image>
+    </swiper-item>
+  </swiper>
 </view>
