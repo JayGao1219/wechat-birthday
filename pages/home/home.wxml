@@ -16,4 +16,13 @@
       <image src="../../images/4.png"></image>
     </swiper-item>
   </swiper>
+
+  <view class="timer">
+    🐣 {{days}} 天 {{hours}} 时 {{minutes}} 分钟 {{seconds}} 秒
+  </view>
+
+  <view class="timer">
+    ❤ {{ldays}} 天 {{lhours}} 时 {{lminutes}} 分钟 {{lseconds}} 秒
+  </view>
+
 </view>

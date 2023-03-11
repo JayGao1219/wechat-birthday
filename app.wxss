@@ -11,6 +11,7 @@ page{
   margin-left: 223rpx;
   margin-top: 20rpx;
 }
+
 #font{
   color:rgb(170, 64, 64);
   height: 200px;
@@ -19,6 +20,7 @@ page{
   opacity:0;
   margin-left: 250rpx;
 }
+
 #default{
   color:rgb(12, 12, 12);
   height: 200px;
@@ -30,6 +32,12 @@ page{
   from {top:100px;opacity:100;}
   to {top:50px;opacity:0;}
 }
+
 .title{
   margin-left: 250rpx;color:black; margin-top: 250rpx;
+}
+
+.timer{
+  color:rgb(170, 64, 64); 
+  text-align:center;
 }
