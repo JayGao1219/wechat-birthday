@@ -2,7 +2,7 @@
   <swiper
     indicator-dots="{{true}}"  
     autoplay="{{true}}"
-    style="height: 500rpx;">
+    style="height: 400rpx;">
     <swiper-item>
       <image src="../../images/p1.jpeg"></image>
     </swiper-item>
@@ -24,5 +24,28 @@
   <view class="timer">
     ❤ {{ldays}} 天 {{lhours}} 时 {{lminutes}} 分钟 {{lseconds}} 秒
   </view>
-
+  <view class='begin'>
+    献给我的挚爱陈远哲先生:
+  </view>
+  <view class='paragraph'>
+    心中万千思绪，落笔寥寥数语。
+  </view>
+  <view class='paragraph'>
+    首先，也是最重要的，祝你生日快乐，天天开心，万事顺遂！
+  </view>
+  <view class='paragraph'>
+    和你在一起后，我无时无刻不在感叹缘分的奇妙，感谢命运的安排。
+  </view>
+  <view class='paragraph'>
+    对我来说，你是重要的存在，是我平凡生活中最鲜亮有活力的色彩。
+  </view>
+  <view class='paragraph'>
+    有你相伴，我感到非常幸运。能够和你一起分享生命中的点滴，包括快乐、悲伤、成功和挫折，让我更有勇气去面对当下。
+  </view>
+  <view class='paragraph'>
+    我相信，我们的爱会一直持续下去，直到永远。
+  </view>
+  <view class='sign'>
+    来自深爱你的高佳圆女士
+  </view>
 </view>
