@@ -10,10 +10,12 @@ Page({
         lhours:0,
         lminutes:0,
         lseconds:0,
-        
+        words:"../../audio/bless_words.mp3",
     },
     onLoad:function(){
         var that = this;
+        this.audoicCtx = wx.createAudioContext('myWords');
+        this.audoicCtx.play();
         setInterval(function(){
             var now = new Date();
             var birthDate = new Date(2000, 3, 27);
