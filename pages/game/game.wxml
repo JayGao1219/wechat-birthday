@@ -2,5 +2,5 @@
   <view class="title">今日的爱：{{value}}</view>
 <view id="{{id}}">❤+1</view>
 <image  src="../../images/heart.png" bindtap="click" class="image {{classStyle}}"></image>
-
+<audio  src="{{src}}" id="myAudio" ></audio>
 </view>
